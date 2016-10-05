@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="animate.css" title="no title">
     <link rel="stylesheet" href="bootstrap.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="styles.css" title="no title">
     <link rel="stylesheet" href="style.css" title="no title">
@@ -21,14 +22,14 @@
           <div id="htdesc">Computer Science student</div>
           <div id="htem"><a href="mailto:arian.hosseini9@gmail.com" style="color:white;"><b>arian.hosseini9@gmail.com</b></a></div>
           <div id="icons">
-            <div class="svgico">
+            <div class="svgico animated fadeInDown">
               <a href="https://twitter.com/arianxtrom"><img src="static/twitter.png"></a>
             </div>
-            <div class="svgico">
-              <!-- <a href="https://karpathy.github.io"><img src="icons/20-rss.svg"></a> -->
-            </div>
-            <div class="svgico">
+            <div class="svgico animated fadeInDown">
               <a href="https://github.com/arianhosseini"><img src="static/github-logo.png" width=""></a>
+            </div>
+            <div class="svgico animated fadeInDown">
+              <a href="static/cv_ver0.pdf"><img src="static/icons/cv.png"></a>
             </div>
           </div>
         </div>
@@ -85,7 +86,7 @@
           <img src="static/iust.png" class="icon-right" alt="Movie"><div class="ttitle">B.S. in Computer Engineering</div>
           <div class="tdesc">Iran University of Science and Technology, Tehran, Iran. (Among top 3 Universities in Iran)<br>
             <b>Ranked First among the entire university's computer engineering students</b> <br>
-            <b class="gpa"> GPA: 19.21/20 </b>
+            <b class="gpa"> GPA: 19.13/20 </b>
           </div>
           <span class="cd-date tdate">September 2013 - Will graduate by April 2017</span>
         </div> <!-- cd-timeline-content -->
@@ -133,7 +134,7 @@
 
               <div class="col-md-4">
                 <div class="pubimg research-img-sec">
-                  <img class="pub_pic" src="http://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/12/Screen-Shot-2015-12-30-at-1.16.08-PM.png">
+                  <img class="pub_pic" style="max-width:70%;" src="http://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/12/Screen-Shot-2015-12-30-at-1.16.08-PM.png">
                 </div>
               </div>
 
@@ -173,14 +174,14 @@
 
               <div class="col-md-4 ">
                 <div class="pubimg research-img-sec">
-                  <img class="pub_pic img-circle" src="static/beatrix.jpg">
+                  <img class="pub_pic " src="static/beatrix.jpg">
                 </div>
               </div>
 
               <div class="col-md-8">
                 <div class="pub">
                   <div class="pubt">Beatrix: Analysis of Persian Poetry using Language Models </div>
-                  <h4>Status: Finished</h4>
+                  <p>status: Finished</p>
                   <div class="pubd">
                     This was a project for my Computational Artifial Intelligence course instructed by Dr. Behrouz Minaei.
                     Over the years many systems have been introduced to create poetic artefacts with varying degrees of sophistication. These systems can be generally categorized into rule based systems and statistical approaches which try to mimic the process of a human writing a poem, or simulate human verbal behavior <a href="http://www.cl.cam.ac.uk/~lmg30/acs/projectreports2016/MPhil/303189150.pdf
@@ -246,17 +247,17 @@
                   <p style="font-size:15px;">
                     Convolution with 3×3 Filter. Source: http://deeplearning.stanford.edu/wiki/index.php/Feature_extraction_using_convolution
                   </p>
-                  <!-- <img src="static/maxpool.jpeg" style="max-width:100%;max-height:100%;">
+                  <img src="static/maxpool.jpeg" style="max-width:100%;max-height:100%;">
                   <p style="font-size:15px;">
-                    Convolution with 3×3 Filter. Source: http://deeplearning.stanford.edu/wiki/index.php/Feature_extraction_using_convolution
-                  </p> -->
+                    Max pooling in CNN. Source: http://cs231n.github.io/convolutional-networks/#pool
+                  </p>
 
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="pub">
                   <div class="pubt"><a href="">Alefba: Persian Optical Character Recognition System</a></div>
-                  <p>status: Finished (Finishing touches and modifications) (aks Ehsan?)</p>
+                  <p>status: In Preparation </p>
                   <div class="pubd">
                     Improvements and advancements in OCR techniques have been uneven across different languages, especially Persian.
                     Persian written text's form, delicate word segmentation and phonetic notations in text have impeded a close to human performance; thus,
@@ -264,7 +265,7 @@
                     Our model takes advantage of <b>Convolutional Layers</b> for feature extraction, <b>Bi-Directional LSTMs</b> and <a href="http://www.gitxiv.com/posts/9hLxYvJLCu9Z9N4pK/ctc-connectionist-temporal-classification"><b>Connectionist Temporal Classification (CTC) cost</b></a>
                     to label sequences.<br>
                     Since there was no large dataset available, we created a suitable one using several different fonts.
-                    We also added noise to this artificial dataset(ask Ehsan) in order to have a higher semblance to real noisy images.<br>
+                    We also added noise to this artificial dataset in order to have a higher semblance to real noisy images.<br>
                     The Model was first developed with Lua, and then for better integration we switched to TensorFlow for production phase.
                     Many Companies now use this unrivaled system(as a service) in Iran.
                   </div>
@@ -272,7 +273,7 @@
                   <div class="pubv">Machine Learning and Data Mining Lab, CE Dept, Iran University of Science and Technology</div>
                   <div class="publ">
                     <ul>
-                      <li><a href="http://www.boute.ir/iust-ai-94/named-entity-recognition">Paper Blog Post</a></li>
+                      <li><a href="">Code and Data will be published with paper</a></li>
                     </ul>
                   </div>
                 </div>
@@ -358,7 +359,7 @@
               <img src="static/abrio.jpg" class="imgb">
             <div class="ppt">AbrIO</div>
             <div class="ppd">
-              Abrio is a soft <b>fast, real time, reliable and scalable</b> message passing server as a service.
+              Abrio is a <b>fast, soft real time, reliable and scalable</b> message passing server as a service.
               This service can be used by anyone: indies, professional studios and AAA productions. <br>
               AbrIO can be used to easily add <b>multiplayer</b> to games and run them on resilient concurrent servers; it can also be used in Internet of Things.
               AbrIO is developed in<a href="http://www.scala-lang.org/index.html"><b> Scala</b></a>, a scalable and functional programming language.
@@ -388,6 +389,7 @@
         <div class="col-md-4">
           <div class="pp">
             <img src="static/headball.jpg" class="imgb">
+            <img src="static/headball-2.png" class="imgb">
             <div class="ppt">HeadBall</div>
             <div class="ppd">
                <a href="https://cafebazaar.ir/app/com.arian.arian/?l=en">HeadBall</a> is a single player 2D soccer game
@@ -403,6 +405,37 @@
     </div>
     <p>hi</p>
 
+
+    <div class="container">
+        <section style="height:80px;"></section>
+        <!----------- Footer ------------>
+        <footer class="footer-bs">
+            <div class="row">
+            	<div class="col-md-5 footer-brand animated fadeInLeft">
+                <h4>Seyed Arian Hosseini</h4>
+                <ul>
+                  <li class="contact_items"><a href="mailto:arian.hosseini9@gmail.com"><img src="static/icons/letter.png" alt="" /></a></li>
+                  <li class="contact_items"><a href="https://twitter.com/arianxtrom"><img src="static/icons/twitter_2.png" alt="" /></a></li>
+                  <li class="contact_items"><a href="https://www.instagram.com/arianx/"><img src="static/icons/instagram.png" alt="" /></a></li>
+                    <!-- <li><a href="#">RSS</a></li> -->
+                </ul>
+                <br>
+                <p>
+                  last update : Oct 2016
+                </p>
+                <p>Computer Engineering Department, Iran University of Science and Technology, Tehran.</p>
+                <p>© 2016, All rights reserved</p>
+                </div>
+            	<!-- <div class="col-md-4 footer-social animated fadeInDown">
+                	<h4></h4>
+
+                </div> -->
+
+            </div>
+        </footer>
+
+
+    </div>
   </body>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
